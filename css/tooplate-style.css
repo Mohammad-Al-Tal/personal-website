@@ -150,7 +150,7 @@ a {
 }
 
 .title-hover {
-  color: black;
+  color: #000000;
   transition: color 0.3s ease, transform 0.3s ease;
 }
 
@@ -163,7 +163,6 @@ a {
   color:var(--primary-color);
   transform: scale(1.05);
 }
-
 
   /*---------------------------------------
      GENERAL               
