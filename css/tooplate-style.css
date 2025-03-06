@@ -159,9 +159,25 @@ a {
   transform: scale(1.05);
 }
 
+.mb-1 {
+  margin-bottom: 1rem; /* مساحة بين الفقرات */
+}
+
+.link-hover {
+  color: var(--gray-color); /* اللون الأساسي */
+  text-decoration: none;
+  transition: color 0.3s, transform 0.3s; /* تأثير سلس */
+  display: flex; /* لاستخدام flex للمحاذاة */
+  align-items: center; /* محاذاة العناصر عموديًا */
+}
+
 .link-hover:hover {
-  color:var(--primary-color);
-  transform: scale(1.05);
+  color: var(--primary-color); /* اللون عند الهوفر */
+  transform: scale(1.05); /* تكبير عند الهوفر */
+}
+
+.link-hover i {
+  margin-right: 0.5rem; /* مسافة بين الأيقونة والنص */
 }
 
   /*---------------------------------------
