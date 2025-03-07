@@ -130,17 +130,17 @@ div.card {
     background: var(--primary-color);
     border: none;
     border-radius: var(--border-radius-medium);
-    color: var(--white-color);
+    /* color: var(--white-color); */
     letter-spacing: 0.2px;
     padding: 6px 36px 10px 36px;
     font-size: var(--button-font-size);
     white-space: nowrap;
-  }
-
-  .custom-btn:hover,
-  .custom-btn:focus {
+    }
+    
+    .custom-btn:hover,
+    .custom-btn:focus {
     color: var(--white-color);
-    background: var(--dark-color);
+    background: black;   
   }
 
 /* hover  */
@@ -180,18 +180,17 @@ a {
   margin-right: 0.5rem; /* مسافة بين الأيقونة والنص */
 }
 
-.Website-hover {
-  color: #000000;/* اللون الأساسي */
-  text-decoration: none;
-  transition: color 0.3s, transform 0.3s; /* تأثير سلس */
-  display: flex; /* لاستخدام flex للمحاذاة */
-  align-items: center; /* محاذاة العناصر عموديًا */
+.copyright-text {
+  font-size: 0.9rem; 
+  /* text-align: center; محاذاة النص إلى المنتصف */
+  color: #666; 
+  transition: color 0.3s; 
 }
 
-.Website-hover:hover {
-  color: var(--primary-color); /* اللون عند الهوفر */
-  transform: scale(1.05); /* تكبير عند الهوفر */
+.copyright-text:hover {
+  color: #ffeaea; 
 }
+
   /*---------------------------------------
      GENERAL               
   -----------------------------------------*/
@@ -607,7 +606,12 @@ a {
   /*---------------------------------------
      RESPONSIVE STYLES              
   -----------------------------------------*/
+  .phone-email {display:none;
 
+  }
+  .pc-email {display:flex;
+
+  }
   @media screen and (max-width: 1200px) {
     h1 {
         font-size: 42px;
@@ -627,6 +631,13 @@ a {
 
     .email-link {
       font-size: 28px;
+    }
+
+    .phone-email {display:flex;
+
+    }
+    .pc-email {display:none;
+
     }
   }
 
