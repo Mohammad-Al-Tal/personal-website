@@ -180,6 +180,18 @@ a {
   margin-right: 0.5rem; /* مسافة بين الأيقونة والنص */
 }
 
+.Website-hover {
+  color: #000000;/* اللون الأساسي */
+  text-decoration: none;
+  transition: color 0.3s, transform 0.3s; /* تأثير سلس */
+  display: flex; /* لاستخدام flex للمحاذاة */
+  align-items: center; /* محاذاة العناصر عموديًا */
+}
+
+.Website-hover:hover {
+  color: var(--primary-color); /* اللون عند الهوفر */
+  transform: scale(1.05); /* تكبير عند الهوفر */
+}
   /*---------------------------------------
      GENERAL               
   -----------------------------------------*/
