@@ -744,7 +744,7 @@ a {
 /* تنسيق الرقم على الكمبيوتر (نص عادي) */
 .pc-number, 
 .phone-number {
-  color: #909090; /* نفس اللون للأثنين */
+  color: #909090; 
   /* font-weight: bold; */
   text-decoration: none;
 }
