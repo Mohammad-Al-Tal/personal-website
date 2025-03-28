@@ -500,7 +500,17 @@ a {
 }
 
 
+.link {
+  color: black;
+  transition: all 0.3s ease-in-out;
+}
 
+.link:hover {
+  background: linear-gradient(135deg, #007bff, #00aeff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transform: translateY(-4px);
+}
 
   /*---------------------------------------
      ABOUT                
